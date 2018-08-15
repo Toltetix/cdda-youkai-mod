@@ -4,9 +4,9 @@
     "name": "GROUP_FOREST",
     "default": "mon_null",
     "monsters": [
-      { "monster": "mon_tengu_monk", "freq": 1, "cost_multiplier": 50 },
-      { "monster": "mon_nekomata", "freq": 1, "cost_multiplier": 40 },
-      { "monster": "mon_tengu", "freq": 3, "cost_multiplier": 30, "pack_size": [ 2, 4 ] }
+      { "monster": "mon_tengu_monk", "freq": 2, "cost_multiplier": 50 },
+      { "monster": "mon_nekomata", "freq": 4, "cost_multiplier": 40 },
+      { "monster": "mon_tengu", "freq": 8, "cost_multiplier": 30, "pack_size": [ 2, 4 ] }
     ]
   },
   {
@@ -43,8 +43,8 @@
     "name": "GROUP_RIVER",
     "default": "mon_null",
     "monsters": [
-      { "monster": "mon_kappa", "freq": 4, "cost_multiplier": 30, "pack_size": [ 1, 2 ] },
-	  { "monster": "mon_kappa_engineer", "freq": 1, "cost_multiplier": 50 }
+      { "monster": "mon_kappa", "freq": 12, "cost_multiplier": 30, "pack_size": [ 1, 2 ] },
+	  { "monster": "mon_kappa_engineer", "freq": 5, "cost_multiplier": 50 }
     ]
   }
 ]
