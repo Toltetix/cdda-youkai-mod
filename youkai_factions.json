@@ -1,0 +1,29 @@
+[
+	{
+	"type" : "SPECIES",
+    "id" : "YOUKAI",
+    "fear_triggers" : ["HURT", "FRIEND_DIED"]
+	},
+	{
+    "type": "MONSTER_FACTION",
+    "name": "youkai",
+	"friendly": [ "cult", "small_animal", "insect"  ],
+	"neutral": [ "blob" ]
+	},
+	{
+    "type": "MONSTER_FACTION",
+    "name": "tengu",
+	"base_faction": "youkai"
+	},
+	{
+    "type": "MONSTER_FACTION",
+    "name": "nekomata",
+	"base_faction": "youkai",
+	"neutral": [ "human" ]
+	},
+	{
+	"type": "MONSTER_FACTION",
+	"name": "kappa",
+	"base_faction": "youkai"
+	}
+]

@@ -1,0 +1,72 @@
+[
+	{
+		"type" : "item_group",
+		"id" : "youkai_items",
+		"items":[
+		["newest_newspaper", 3]
+		]
+	},{
+		"type" : "item_group",
+		"id" : "tengu_thug_cudgels",
+		"items":[
+		["cudgel", 40],
+		["stick_long", 60]
+		]
+	},{
+		"type" : "item_group",
+		"id" : "tengu_thug_items",
+		"items":[
+		["candlestick", 40],
+		["pocketwatch", 20],
+		["gold_small", 50],
+		["silver_small", 70],
+		["money_bundle", 90]
+		]
+	},{
+		"type" : "item_group",
+		"id" : "tengu_general_kimono",
+		"items":[
+		["kimono", 100]
+		]
+	},{
+		"type" : "item_group",
+		"id" : "tengu_general_geta",
+		"items":[
+		["geta", 100]
+		]
+	},{
+		"type" : "item_group",
+		"id" : "tengu_monk_items",
+		"items":[
+		["helmet_nomad",90],
+		["wakizashi", 50],
+		["armor_samurai", 10]
+		]
+	},{
+		"type" : "item_group",
+		"id" : "tengu_monk_naginata",
+		"items":[ ["naginata", 100] ]
+	},{
+		"type" : "item_group",
+		"id" : "nekomata_tail_items",
+		"items":[ ["nekomata_tails", 100] ]
+	},{
+		"type" : "item_group",
+		"id" : "kappa_engineer_items",
+		"items":[
+		["newest_newspaper", 3]
+		]
+	},{
+		"type" : "item_group",
+		"id" : "kappa_general_items",
+		"items":[
+		["newest_newspaper", 3]
+		]
+	},{
+		"type" : "item_group",
+		"id" : "kappabot",
+		"items":[
+		["newest_newspaper", 3]
+		]
+	}
+]

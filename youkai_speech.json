@@ -1,0 +1,68 @@
+[
+	{
+	"type" : "speech",
+    "speaker" : "mon_tengu",
+    "sound" : "\"Leave what's dearest to you for me and I just might leave you alone.\"",
+	"volume" : 20
+	},{
+	"type" : "speech",
+    "speaker" : "mon_tengu",
+    "sound" : "\"Give me that trinket!\"",
+	"volume" : 25
+	},{
+	"type" : "speech",
+    "speaker" : "mon_tengu",
+    "sound" : "\"I didn't expect less.\"",
+	"volume" : 20
+	},{
+	"type" : "speech",
+    "speaker" : "mon_tengu",
+    "sound" : "a loud croak!",
+	"volume" : 32
+	},{
+	"type" : "speech",
+    "speaker" : "mon_tengu",
+    "sound" : "a thunderclap-like battlecry!",
+	"volume" : 40
+	},{
+	"type" : "speech",
+    "speaker" : "mon_tengu",
+    "sound" : "\"I am a god! How could you kill a god?\"",
+	"volume" : 25
+	},{
+	"type" : "speech",
+    "speaker" : "mon_tengu",
+    "sound" : "\"This is pathetic!\"",
+	"volume" : 25
+	},{
+	"type" : "speech",
+    "speaker" : "mon_tengu_monk",
+    "sound" : "a loud croak!",
+	"volume" : 32
+	},{
+	"type" : "speech",
+    "speaker" : "mon_tengu_monk",
+    "sound" : "a thunderclap-like battlecry!",
+	"volume" : 40
+	},{
+	"type" : "speech",
+    "speaker" : "mon_tengu_monk",
+    "sound" : "\"I am a god! How could you kill a god?\"",
+	"volume" : 25
+	},{
+	"type" : "speech",
+    "speaker" : "mon_tengu_monk",
+    "sound" : "\"You had it coming.",
+	"volume" : 20
+	},{
+	"type" : "speech",
+    "speaker" : "mon_tengu_monk",
+    "sound" : "\"Too bad. I will have to clean my naginata after this!\"",
+	"volume" : 20
+	},{
+	"type" : "speech",
+    "speaker" : "mon_tengu_monk",
+    "sound" : "\"How much do people need to tell you to leave things how they are?\"",
+	"volume" : 20
+	}
+]

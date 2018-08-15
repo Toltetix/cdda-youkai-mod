@@ -1,0 +1,12 @@
+[
+  {
+    "type": "overmap_terrain",
+    "id": "field_highway_tengu",
+    "name": "field",
+    "sym": "T",
+    "color": "red",
+    "see_cost": 2,
+    "extras": "field",
+    "flags": [ "NO_ROTATE" ]
+  }
+]
