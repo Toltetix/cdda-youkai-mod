@@ -25,6 +25,8 @@
 		"vitamins": [ [ "calcium", 1 ], [ "iron", 20 ], [ "vitB", 10 ] ],
 		"price" : 200000,
         "healthy" : 6,
+		"weight" : 300,
+        "volume" : 2,
 		"fun": -15,
 		"comestible_type": "FOOD",
         "stim" : 1,
