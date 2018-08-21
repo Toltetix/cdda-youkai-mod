@@ -1,8 +1,8 @@
 [
   {
     "type": "overmap_special",
-    "id": "Tengu Highwaybirds",
-    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "field_highway_tengu" } ],
+    "id": "Youkai Highwaymen",
+    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "field_highway_youkai" } ],
     "connections": [ { "point": [ 0, -1, 0 ], "terrain": "road", "existing": true } ],
     "locations": [ "land", "swamp" ],
     "city_distance": [ 10, 200 ],

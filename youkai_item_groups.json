@@ -68,5 +68,43 @@
 		"items":[
 		["newest_newspaper", 3]
 		]
+	},{
+		"type" : "item_group",
+		"id" : "oni_bandit_items",
+		"items":[
+		["pocketwatch", 10],
+		["gold_small", 70],
+		["silver_small", 30],
+		["bundle_leather", 10]
+		]
+	},{
+		"type" : "item_group",
+		"id" : "oni_bandit_logs",
+		"items":[
+		["log", 95],
+		["homewrecker", 5]
+		]
+	},{
+		"type" : "item_group",
+		"id" : "oni_general_fur",
+		"items":[
+		["armor_farmor", 10],
+		["chestwrap_fur", 20],
+		["cloak_fur", 50],
+		["fur_blanket", 10],
+		["loincloth_fur", 80]
+		]
+	},{
+		"type" : "item_group",
+		"id" : "oni_general_booze_n_food",
+		"items":[
+		["cigar", 5],
+		["vodka", 60],
+		["brandy", 20],
+		["mannwurst", 20],
+		["sandwich_human", 30],
+		["human_haggis", 5],
+		["human_smoked", 40]
+		]
 	}
 ]
