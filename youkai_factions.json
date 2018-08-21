@@ -5,9 +5,21 @@
     "fear_triggers" : ["HURT", "FRIEND_DIED"]
 	},
 	{
+	"type" : "SPECIES",
+	"id" : "ORDER_SIDE",
+	"name" : "ORDER_SIDE",
+	"by_mood" : "CHAOS_SIDE"
+	},
+	{
+	"type" : "SPECIES",
+	"id" : "CHAOS_SIDE",
+	"name" : "CHAOS_SIDE",
+	"by_mood" : "ORDER_SIDE"
+	},
+	{
     "type": "MONSTER_FACTION",
     "name": "youkai",
-	"friendly": [ "cult", "small_animal", "insect"  ],
+	"friendly": [ "small_animal", "animal", "insect"  ],
 	"neutral": [ "blob" ]
 	},
 	{
@@ -25,5 +37,11 @@
 	"type": "MONSTER_FACTION",
 	"name": "kappa",
 	"base_faction": "youkai"
+	},
+	{
+	"type": "MONSTER_FACTION",
+	"name": "oni",
+	"base_faction": "youkai"
 	}
+	
 ]
