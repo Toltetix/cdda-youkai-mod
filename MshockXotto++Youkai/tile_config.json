@@ -41578,14 +41578,62 @@
 		{
 		"id": ["mon_tengu"],
           "fg": 5473,
+		  "bg": 967,
           "rotates": false
 		},
 		{
 		"id": ["mon_tengu_monk"],
           "fg": 5474,
+		  "bg": 967,
+          "rotates": false
+		},
+		{
+		"id": ["mon_nekomata"],
+          "fg": 5475,
+		  "bg": 967,
+          "rotates": false
+		},
+		{
+		"id": ["mon_kappa"],
+          "fg": 5476,
+		  "bg": 967,
+          "rotates": false
+		},
+		{
+		"id": ["mon_kappa_engineer"],
+          "fg": 5477,
+		  "bg": 967,
+          "rotates": false
+		},
+		{
+		"id": ["broken_kappabot"],
+          "fg": 5478,
+		  "bg": 967,
+          "rotates": false
+		},
+		{
+		"id": ["nekomata_tails"],
+          "fg": 5479,
           "rotates": false
 		}
-		
+	]
+	},{
+    "file": "youkai64x80.png",
+    "sprite_width":64,
+    "sprite_height":80,
+    "sprite_offset_x":-16,
+    "sprite_offset_y":-48,
+    "tiles":
+	[
+	{
+	"id": ["mon_oni"],
+    "fg": 5504,
+    "rotates": false   
+	},{
+	"id": ["mon_kappabot"],
+    "fg": 5505,
+    "rotates": false   
+	}
 	]
 	},
     {
