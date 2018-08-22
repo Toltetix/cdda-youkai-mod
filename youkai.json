@@ -36,7 +36,7 @@
 	"type": "MONSTER",
 	"id": "mon_tengu_monk",
 	"name": "tengu monk",
-	"description": "A tall person with a red face and a long nose, with most of its head however covered up by rags. From under its kimono you can spot pieces of Japanese armor. It often meditates and is probaly best left to itself. As for weapons, its holding a naginata, a dangerous polearm.",
+	"description": "A tall person with a red face and a long nose, with most of its head however covered up by rags. From under its kimono you can spot pieces of Japanese armor. It often meditates and is probaly best left to itself. As for weapons, it's holding a naginata, a dangerous polearm.",
 	"species": [ "YOUKAI", "ORDER_SIDE" ],
     "default_faction": "tengu",
 	"diff": 26,
