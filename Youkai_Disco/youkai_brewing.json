@@ -1,0 +1,27 @@
+[
+	{
+    "type": "COMESTIBLE",
+    "id": "sake_filtered",
+    "name": "sake",
+    "name_plural": "sake",
+    "weight": 50,
+    "color": "light_cyan",
+    "addiction_type": "alcohol",
+    "use_action": "ALCOHOL",
+    "stim": -12,
+    "container": "bottle_glass",
+    "comestible_type": "DRINK",
+    "symbol": "~",
+    "quench": 4,
+    "addiction_potential": 5,
+    "nutrition": 3,
+    "description": "A popular Japanese alcohol made by fermenting and filtering rice with the use of yeast and special mold called \"koji\". This one is crystal clear and holding it makes you feel rather fancy.",
+    "price": 1200,
+    "material": [ "alcohol", "water" ],
+    "volume": 1,
+    "phase": "liquid",
+    "charges": 5,
+    "flags": [ "EATEN_COLD" ],
+    "fun": 15
+  },
+]
