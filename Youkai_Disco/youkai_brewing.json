@@ -20,35 +20,36 @@
     "material": [ "alcohol", "water" ],
     "volume": 1,
     "phase": "liquid",
-    "charges": 5,
+    "charges": 7,
     "flags": [ "EATEN_COLD" ],
     "fun": 15
 	},{
-    "type" : "COMESTIBLE",
+    "type" : "GENERIC",
 	"id" : "brew_sake_koji",
 	"name" : "koji & yeast starter",
-	"description" : "Bunch of cooked table rice mixed with yeast and koji mold fragments, once set in a fermenting vat to grow it will make a passable sake base in a pinch.",
+	"description" : "Bunch of cooked table rice mixed with yeast and koji mold fragments, set a side to grow moldy so it can make a passable sake base.",
 	"weight" : 33,
 	"color" : "white",
 	"container" : "bottle_glass",
 	"flags" : "TRADER_AVOID",
 	"symbol": "%",
-	"nutrition" : 2,
-	"quench" : 4,
-	"fun" : -15,
 	"price" : 0,
 	"volume" : 1,
-	"charges" : 7,
-	"comestible_type" : "DRINK",
-    "phase": "liquid",
-	"brewable" : {
-		"time" : 7200,
-		"results" : [ "sake_koji_rice", "yeast" ]
-		}
-    },{
+	"charges" : 1,
+    "category": "food",
+	"use_action": {
+      "target": "sake_koji_rice",
+      "msg": "Since koji seems to have overtaken entire batch of rice, you form it into a tiny \"cake\" for later use.",
+      "moves": 50,
+      "type": "delayed_transform",
+      "transform_age": 33600,
+      "not_ready_msg": "Koji still has plenty of room to grow..."
+    }
+	},{
     "type": "COMESTIBLE",
     "id": "sake_koji_rice",
     "name": "koji covered rice",
+    "name_plural": "koji covered rice",
     "weight": 11,
     "color": "white",
     "container": "bag_plastic",
@@ -56,11 +57,11 @@
 	"flags" : "TRADER_AVOID",
     "symbol": "%",
     "quench": 1,
-    "nutrition": 1,
+    "nutrition": 16,
     "description": "Bunch of rice covered in a distinct mold, mixed in with yeast. Useful for making sake, but not really tasty on its own. Smells vaguely of chestnuts.",
-    "price": 150,
+    "price": 600,
     "volume": 1,
-	"charges": 25,
+	"charges": 2,
     "fun": -15
 	},{
 	"type" : "COMESTIBLE",
@@ -106,7 +107,7 @@
     "material": [ "alcohol", "water" ],
     "volume": 1,
     "phase": "liquid",
-    "charges": 5,
+    "charges": 7,
     "flags": "EATEN_COLD",
     "fun": 13
 	},{
@@ -126,8 +127,8 @@
     "material": "powder",
     "volume": 1,
     "flags": "EDIBLE_FROZEN",
-    "charges": 25,
-    "fun": -10
+    "charges": 5,
+    "fun": -15
   }
 	
 	
