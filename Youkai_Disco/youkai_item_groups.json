@@ -108,5 +108,18 @@
 		["human_smoked", 40],
 		["koji", 3]
 		]
-	}
+	},{
+		"type" : "item_group",
+		"id" : "kamaitachi_items",
+		"items":[
+		["sickle", 90]
+		]
+	},
+	{
+    "id": "groce_ingredient",
+    "type": "item_group",
+    "items": [
+      ["koji", 2]
+    ]
+  }
 ]

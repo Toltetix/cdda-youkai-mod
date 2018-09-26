@@ -244,5 +244,33 @@
 	{ "id": "scratch", "damage_max_instance": [ { "damage_type": "cut", "amount": 10, "armor_multiplier": 0.8 } ] }
 	],
     "flags": [ "SEES", "HEARS", "SMELLS", "NO_BREATHE", "BASHES", "CLIMBS", "FLIES", "PUSH_MON" ]
+	},{
+	"type": "MONSTER",
+	"id": "mon_kamaitachi",
+	"name": "kamaitachi",
+	"description": "A small weasel-like creature, with four sickles instead of its four paws. It flies on a unending gust of hot wind filled with dust and seems to be able to control its direction.",
+	"species": [ "YOUKAI", "CHAOS_SIDE" ],
+    "default_faction": "kamaitachi",
+	"diff": 10,
+    "size": "TINY",
+    "hp": 12,
+    "speed": 180,
+    "material": [ "flesh" ],
+    "symbol": "w",
+    "color": "brown",
+    "aggression": 90,
+    "morale": 100,
+    "melee_skill": 0,
+    "melee_dice": 2,
+    "melee_dice_sides": 2,
+    "dodge": 5,
+    "melee_cut": 10,
+    "vision_day": 10,
+	"emit_fields": [ "emit_small_smoke_plume" ],
+	"death_drops": { "subtype": "collection", "groups": [ [ "youkai_items", 60 ], ["kamaitachi_items", 100], ["kamaitachi_items", 100], ["kamaitachi_items", 100],["kamaitachi_items", 100]  ] },
+	"fear_triggers": [ "FIRE" ],
+    "death_function": [ "DISAPPEAR" ],
+    "special_attacks": [ { "type": "leap", "cooldown": 3, "max_range": 3 }, ["dust_directing", 4], [ "PARROT", 0 ] ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "NO_BREATHE", "HARDTOSHOOT","FLIES"	]
 	}
 ]
