@@ -41571,53 +41571,161 @@
           "rotates": false
         }
     ]
-    },{
-    "file": "youkai32.png",
-    "tiles":
-	[	
+    },
+    {
+	"file": "weirdworld.png",
+	"tiles": [
 		{
-		"id": ["mon_tengu"],
-          "fg": 5473,
-		  "bg": 967,
-          "rotates": false
+		"id": "mon_pink_mist",
+		"fg": 5472,
+		"rotates": false
 		},
 		{
-		"id": ["mon_tengu_monk"],
-          "fg": 5474,
-		  "bg": 967,
-          "rotates": false
+		"id": "mon_entomber",
+		"fg": 5474,
+		"rotates": false
 		},
 		{
-		"id": ["mon_nekomata"],
-          "fg": 5475,
-		  "bg": 967,
-          "rotates": false
+		"id": "mon_bloodbeast",
+		"fg": 5473,
+		"rotates": false
 		},
 		{
-		"id": ["mon_kappa"],
-          "fg": 5476,
-		  "bg": 967,
-          "rotates": false
+		"id": "mon_worm_mass",
+		"fg": 5481,
+		"rotates": false
 		},
 		{
-		"id": ["mon_kappa_engineer"],
-          "fg": 5477,
-		  "bg": 967,
-          "rotates": false
+		"id": "mon_bloodworm",
+		"fg": 5482,
+		"rotates": false
 		},
 		{
-		"id": ["broken_kappabot"],
-          "fg": 5478,
-		  "bg": 967,
-          "rotates": false
+		"id": "mon_grey_grunt",
+		"fg": 5475,
+		"rotates": false
 		},
 		{
-		"id": ["nekomata_tails"],
-          "fg": 5479,
+		"id": "mon_alien_turret",
+		"fg": 5476,
+		"rotates": false
+		},
+		{
+		"id": "mon_loch_ness_monster",
+		"fg": 5477,
+		"rotates": false
+		},
+		{
+		"id": "mon_jersey_devil",
+		"fg": 5479,
+		"rotates": false
+		},
+		{
+		"id": "mon_mothman",
+		"fg": 5478,
+		"rotates": false
+		},
+		{
+		"id": "grey_handgun",
+		"fg": 5488,
+		"rotates": false
+		},
+		{
+		"id": "mon_robo_sentinel",
+		"fg": 5484,
+		"rotates": false
+		},
+		{
+		"id": "mon_floating_head",
+		"fg": 5485,
+		"rotates": false
+		},
+		{
+		"id": "mon_reptilian",
+		"fg": 5490,
+		"rotates": false
+		},
+		{
+		"id": "mon_lake_lurker",
+		"fg": 5491,
+		"rotates": false
+		},
+		{
+		"id": "mon_cia_security",
+		"fg": 5492,
+		"rotates": false
+		},
+		{
+		"id": "mon_cia_security",
+		"fg": 5492,
+		"rotates": false
+		},
+		{
+		"id": "mon_cia_hazmat",
+		"fg": 5493,
+		"rotates": false
+		},
+		{
+		"id": "mon_woods_thing",
+		"fg": 5494,
+		"rotates": false
+		},
+		{
+		"id": "mon_man_spider",
+		"fg": 5495,
+		"rotates": false
+		},
+		{
+		"id": "grey_instrument",
+		"fg": 5497,
+		"rotates": false
+		},
+		{
+		"id": "bone_violin",
+		"fg": 5498,
+		"rotates": false
+		},
+		{
+		"id": "golden_hand",
+		"fg": 5499,
+		"rotates": false
+		},
+		{
+		"id": "crystal_eyeball",
+		"fg": 5500,
+		"rotates": false
+		},
+		{
+		"id": "glass_spider",
+		"fg": 5501,
+		"rotates": false
+		},
+		{
+		"id": "grey_ammo",
+		"fg": 5502,
+		"rotates": false
+		},
+        {
+        "id": "bloody_chainsaw_on",
+        "fg": 3473,
+        "bg": 957,
+        "rotates": false
+        },
+        {
+        "id": "bloody_chainsaw_off",
+        "fg": 3472,
+        "bg": 957,
+        "rotates": false
+        },
+        {
+          "id": "glowing_lighter",
+          "fg": 3602,
+          "bg": 957,
           "rotates": false
-		}
+        }
 	]
-	},{
+	},
+        {
     "file": "youkai64x80.png",
     "sprite_width":64,
     "sprite_height":80,
@@ -41627,13 +41735,96 @@
 	[
 	{
 	"id": ["mon_oni"],
-    "fg": 5504,
+    "fg": 5616,
     "rotates": false   
 	},{
 	"id": ["mon_kappabot"],
-    "fg": 5505,
+    "fg": 5617,
     "rotates": false   
 	}
+	]
+	},
+    {
+    "file": "youkai32.png",
+    "tiles":
+	[	
+		{
+		"id": ["mon_tengu"],
+          "fg": 5697,
+		  "bg": 967,
+          "rotates": false
+		},
+		{
+		"id": ["mon_tengu_monk"],
+          "fg": 5698,
+		  "bg": 967,
+          "rotates": false
+		},
+		{
+		"id": ["mon_nekomata"],
+          "fg": 5699,
+		  "bg": 967,
+          "rotates": false
+		},
+		{
+		"id": ["mon_kappa"],
+          "fg": 5700,
+		  "bg": 967,
+          "rotates": false
+		},
+		{
+		"id": ["mon_kappa_engineer"],
+          "fg": 5701,
+		  "bg": 967,
+          "rotates": false
+		},
+		{
+		"id": ["broken_kappabot"],
+          "fg": 5702,
+		  "bg": 967,
+          "rotates": false
+		},
+		{
+		"id": ["nekomata_tails"],
+          "fg": 5703,
+          "rotates": false
+		},
+		{
+		"id": ["mon_kamaitachi"],
+			"fg": 5704,
+			"bg": 967,
+			"rotates": false
+		},
+		{
+		"id": ["koji"],
+			"fg": 5705,
+			"rotates": false
+		},
+		{
+		"id": ["sake_koji_rice"],
+			"fg": 5706,
+			"rotates": false
+		},
+		{
+		  "id": ["sake_filtered"],
+		  "fg" : 5707,
+		  "rotates": false
+		},
+		{
+		  "id": ["sake_unfiltered"],
+		  "fg" : 5708,
+		  "rotates" : false
+		},
+		{
+		  "id": ["brew_sake"],
+		  "fg" : 5708,
+		  "rotates" : false
+		},
+		{
+		  "id": ["brew_sake_koji"],
+		  "fg": 5709,
+		  "rotates": false
+		}
 	]
 	},
     {
