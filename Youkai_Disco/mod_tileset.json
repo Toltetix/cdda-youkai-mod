@@ -1,7 +1,7 @@
 [
   {
     "type": "mod_tileset",
-    "compatibility": [ "MshockXottoplus", "MSX++DEAD_PEOPLE", "ChestHole32" ],
+    "compatibility": [ "MshockXottoplus", "MSX++DEAD_PEOPLE", "MshockXotto+Yokai", "ChestHole32" ],
     "tiles-new": [
       {
         "file": "tiles.png",
