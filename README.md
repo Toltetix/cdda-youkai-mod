@@ -1,4 +1,4 @@
-# cdda-youkai-mod
+# Youkai Enemies
 Youkai Enemies mod for Cataclysm: Dark Days Ahead
 
 # Goals of this mod:
