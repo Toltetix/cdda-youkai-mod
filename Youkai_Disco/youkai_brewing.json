@@ -1,5 +1,5 @@
 [
-	{
+  {
     "type": "COMESTIBLE",
     "id": "sake_filtered",
     "name": "sake",
@@ -23,21 +23,22 @@
     "charges": 7,
     "flags": [ "EATEN_COLD" ],
     "fun": 15
-	},{
-    "type" : "GENERIC",
-	"id" : "brew_sake_koji",
-	"name" : "koji & yeast starter",
-	"description" : "Bunch of cooked table rice mixed with yeast and koji mold fragments, set a side to grow moldy so it can make a passable sake base.",
-	"weight" : 33,
-	"color" : "white",
-	"container" : "bottle_glass",
-	"flags" : "TRADER_AVOID",
-	"symbol": "%",
-	"price" : 0,
-	"volume" : 1,
-	"charges" : 1,
+  },
+  {
+    "type": "GENERIC",
+    "id": "brew_sake_koji",
+    "name": "koji & yeast starter",
+    "description": "Bunch of cooked table rice mixed with yeast and koji mold fragments, set a side to grow moldy so it can make a passable sake base.",
+    "weight": 33,
+    "color": "white",
+    "container": "bottle_glass",
+    "flags": "TRADER_AVOID",
+    "symbol": "%",
+    "price": 0,
+    "volume": 1,
+    "charges": 1,
     "category": "food",
-	"use_action": {
+    "use_action": {
       "target": "sake_koji_rice",
       "msg": "Since koji seems to have overtaken entire batch of rice, you form it into a tiny \"cake\" for later use.",
       "moves": 50,
@@ -45,7 +46,8 @@
       "transform_age": 33600,
       "not_ready_msg": "Koji still has plenty of room to grow..."
     }
-	},{
+  },
+  {
     "type": "COMESTIBLE",
     "id": "sake_koji_rice",
     "name": "koji covered rice",
@@ -54,40 +56,39 @@
     "color": "white",
     "container": "bag_plastic",
     "comestible_type": "FOOD",
-	"flags" : "TRADER_AVOID",
+    "flags": "TRADER_AVOID",
     "symbol": "%",
     "quench": 1,
     "nutrition": 16,
     "description": "Bunch of rice covered in a distinct mold, mixed in with yeast. Useful for making sake, but not really tasty on its own. Smells vaguely of chestnuts.",
     "price": 600,
     "volume": 1,
-	"charges": 2,
+    "charges": 2,
     "fun": -15
-	},{
-	"type" : "COMESTIBLE",
-	"id" : "brew_sake",
-	"name" : "sake base",
-	"description" : "A fine mix of water, koji covered rice and yeast, ready to be fermented into sake once set in a fermenting vat.",
-	"weight" : 46,
-	"color" : "white",
-	"container" : "bottle_glass",
-	"flags" : "TRADER_AVOID",
-	"symbol" : "~",
-	"nutrition" : 2,
-	"quench" : 6,
-	"fun" : -5,
-	"price" : 0,
-	"material" : ["fruit", "water"],
-	"volume" : 1,
-	"charges" : 7,
-	"phase" : "liquid",
-	"comestible_type" : "DRINK",
-	"brewable" : {
-		"time" : 14200,
-		"results" : [ "sake_unfiltered", "koji" ]
-        }
-    },{
-	"type": "COMESTIBLE",
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "brew_sake",
+    "name": "sake base",
+    "description": "A fine mix of water, koji covered rice and yeast, ready to be fermented into sake once set in a fermenting vat.",
+    "weight": 46,
+    "color": "white",
+    "container": "bottle_glass",
+    "flags": "TRADER_AVOID",
+    "symbol": "~",
+    "nutrition": 2,
+    "quench": 6,
+    "fun": -5,
+    "price": 0,
+    "material": [ "fruit", "water" ],
+    "volume": 1,
+    "charges": 7,
+    "phase": "liquid",
+    "comestible_type": "DRINK",
+    "brewable": { "time": 14200, "results": [ "sake_unfiltered", "koji" ] }
+  },
+  {
+    "type": "COMESTIBLE",
     "id": "sake_unfiltered",
     "name": "nigori sake",
     "name_plural": "nigori sake",
@@ -110,11 +111,12 @@
     "charges": 7,
     "flags": "EATEN_COLD",
     "fun": 13
-	},{
+  },
+  {
     "type": "COMESTIBLE",
     "id": "koji",
     "name": "koji",
-	"name_plural": "koji",
+    "name_plural": "koji",
     "weight": 11,
     "color": "white",
     "container": "bag_plastic",
@@ -130,6 +132,4 @@
     "charges": 5,
     "fun": -15
   }
-	
-	
 ]
