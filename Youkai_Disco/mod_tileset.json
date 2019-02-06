@@ -1,7 +1,7 @@
 [
   {
     "type": "mod_tileset",
-    "compatibility": [ "MshockXottoplus", "MSX++DEAD_PEOPLE", "MshockXotto+Yokai", "ChestHole32" ],
+    "compatibility": [ "MshockXottoplus", "MSX++DEAD_PEOPLE", "ChestHole32" ],
     "tiles-new": [
       {
         "file": "tiles.png",
@@ -20,6 +20,23 @@
           { "id": "sake_unfiltered", "fg": 12, "bg": 0 },
           { "id": "brew_sake", "fg": 12, "bg": 0 },
           { "id": "brew_sake_koji", "fg": 13, "bg": 0 }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "MshockXottoplus", "MSX++DEAD_PEOPLE", "ChestHole32" ],
+    "tiles-new": [
+      {
+        "file": "tiles_64x80.png",
+        "sprite_width":64,
+        "sprite_height":80,
+        "sprite_offset_x":-16,
+        "sprite_offset_y":-48,
+        "tiles": [
+          { "id": "mon_oni", "fg": 1, "bg": 0 },
+          { "id": "mon_kappabot", "fg": 2, "bg": 0 }
         ]
       }
     ]
