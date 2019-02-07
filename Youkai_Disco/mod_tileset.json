@@ -30,14 +30,11 @@
     "tiles-new": [
       {
         "file": "tiles_64x80.png",
-        "sprite_width":64,
-        "sprite_height":80,
-        "sprite_offset_x":-16,
-        "sprite_offset_y":-48,
-        "tiles": [
-          { "id": "mon_oni", "fg": 1, "bg": 0 },
-          { "id": "mon_kappabot", "fg": 2, "bg": 0 }
-        ]
+        "sprite_width": 64,
+        "sprite_height": 80,
+        "sprite_offset_x": -16,
+        "sprite_offset_y": -48,
+        "tiles": [ { "id": "mon_oni", "fg": 1, "bg": 0 }, { "id": "mon_kappabot", "fg": 2, "bg": 0 } ]
       }
     ]
   }
