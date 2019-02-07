@@ -52,7 +52,7 @@
 	},{
 	"type" : "speech",
     "speaker" : "mon_tengu",
-    "sound" : "\"I am a god! How could you kill a god?\"",
+    "sound" : "\"I am a god!  How could you kill a god?\"",
 	"volume" : 25
 	},{
 	"type" : "speech",
@@ -72,7 +72,7 @@
 	},{
 	"type" : "speech",
     "speaker" : "mon_tengu_monk",
-    "sound" : "\"I am a god! How could you kill a god?\"",
+    "sound" : "\"I am a god!  How could you kill a god?\"",
 	"volume" : 25
 	},{
 	"type" : "speech",
@@ -82,7 +82,7 @@
 	},{
 	"type" : "speech",
     "speaker" : "mon_tengu_monk",
-    "sound" : "\"Too bad. I will have to clean my naginata after this!\"",
+    "sound" : "\"Too bad.  I will have to clean my naginata after this!\"",
 	"volume" : 20
 	},{
 	"type" : "speech",
@@ -112,17 +112,17 @@
 	},{
 	"type" : "speech",
     "speaker" : "mon_tengu_monk",
-    "sound" : "\"Your kind is so adaptive which always impressed me. Too bad your time on Earth is over.\"",
+    "sound" : "\"Your kind is so adaptive which always impressed me.  Too bad your time on Earth is over.\"",
 	"volume" : 20
 	},{
 	"type" : "speech",
     "speaker" : "mon_nekomata",
-    "sound" : "\"What's this? A mortal who is putting up a fight? That's cute!\"",
+    "sound" : "\"What's this?  A mortal who is putting up a fight? That's cute!\"",
 	"volume" : 20
 	},{
 	"type" : "speech",
     "speaker" : "mon_nekomata",
-    "sound" : "\"My fur! Now it's all icky.\"",
+    "sound" : "\"My fur!  Now it's all icky.\"",
 	"volume" : 20
 	},{
 	"type" : "speech",
@@ -142,17 +142,17 @@
 	},{
 	"type" : "speech",
     "speaker" : "mon_nekomata",
-    "sound" : "quiet meow.",
+    "sound" : "a quiet meow.",
 	"volume" : 15
 	},{
 	"type" : "speech",
     "speaker" : "mon_nekomata",
-    "sound" : "loud meow!",
+    "sound" : "a loud meow!",
 	"volume" : 24
 	},{
 	"type" : "speech",
     "speaker" : "mon_nekomata",
-    "sound" : "\"All of your kind that survived seem to have atleast one mental defect. Are you another case of a hoader?\"",
+    "sound" : "\"All of your kind that survived seem to have at least one mental defect.  Are you another case of a hoader?\"",
 	"volume" : 20
 	},{
 	"type" : "speech",
@@ -212,7 +212,7 @@
 	},{
 	"type" : "speech",
     "speaker" : "mon_kappa_engineer",
-    "sound" : "\"HEY! You have tools, right?! I mean, what fools don't walk with their tools?\"",
+    "sound" : "\"HEY!  You have tools, right?!  I mean, what fools don't walk with their tools?\"",
 	"volume" : 25
 	},{
 	"type" : "speech",
@@ -242,7 +242,7 @@
 	},{
 	"type" : "speech",
     "speaker" : "mon_oni",
-    "sound" : "\"I'd love to eat something good at Boss's place. Hope you deliver!\"",
+    "sound" : "\"I'd love to eat something good at Boss's place.  Hope you deliver!\"",
 	"volume" : 25
 	},{
 	"type" : "speech",

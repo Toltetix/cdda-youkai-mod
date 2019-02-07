@@ -1,5 +1,5 @@
 [
-	{
+  {
     "result": "broken_kappabot",
     "type": "uncraft",
     "skill_used": "electronics",
@@ -12,12 +12,12 @@
       [ [ "scrap", 200 ] ],
       [ [ "steel_chunk", 120 ] ],
       [ [ "e_scrap", 10000 ] ],
-	  [ [ "pipe", 500 ] ],
+      [ [ "pipe", 500 ] ],
       [ [ "hose", 100 ] ],
-	  [ [ "motor_large", 4 ] ],
+      [ [ "motor_large", 4 ] ],
       [ [ "power_supply", 4 ] ],
       [ [ "plut_cell", 60 ] ],
-	  [ [ "seed_cucumber", 8] ]
+      [ [ "seed_cucumber", 8 ] ]
     ]
-	}
+  }
 ]
