@@ -82,7 +82,7 @@
   {
     "type": "item_group",
     "subtype": "collection",
-    "id": "mon_kappa_engineer_death_drops",
+    "id": "mon_kappabot_death_drops",
     "entries": [
       { "group": "supplies_electronics", "count": [ 1, 3 ], "prob": 20 },
       { "item": "cucumber", "count": [ 1, 3 ], "prob": 40 },
