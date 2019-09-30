@@ -28,7 +28,7 @@
     "anger_triggers": [ "PLAYER_WEAK", "FRIEND_ATTACKED", "FRIEND_DIED" ],
     "special_attacks": [
       [ "PARROT", 0 ],
-      { "type": "leap", "cooldown": 6, "max_range": 8 },
+      { "type": "leap", "cooldown": 6, "max_range": 6 },
       { "id": "scratch", "damage_max_instance": [ { "damage_type": "cut", "amount": 12, "armor_multiplier": 0.8 } ] }
     ],
     "flags": [ "SEES", "HEARS", "SMELLS", "NO_BREATHE", "BASHES", "HIT_AND_RUN", "CLIMBS", "FLIES", "PUSH_MON" ]
@@ -62,7 +62,7 @@
     "death_function": [ "DISAPPEAR" ],
     "special_attacks": [
       [ "PARROT", 0 ],
-      { "type": "leap", "cooldown": 6, "max_range": 10 },
+      { "type": "leap", "cooldown": 6, "max_range": 7 },
       { "id": "scratch", "damage_max_instance": [ { "damage_type": "cut", "amount": 20, "armor_multiplier": 0.8 } ] }
     ],
     "flags": [ "SEES", "HEARS", "SMELLS", "NO_BREATHE", "HARDTOSHOOT", "CLIMBS", "FLIES", "PUSH_MON" ]
@@ -270,5 +270,63 @@
     "death_function": [ "DISAPPEAR" ],
     "special_attacks": [ { "type": "leap", "cooldown": 3, "max_range": 3 }, [ "dust_directing", 4 ], [ "PARROT", 0 ] ],
     "flags": [ "SEES", "HEARS", "SMELLS", "NO_BREATHE", "HARDTOSHOOT", "FLIES" ]
+  },{
+	
+    "type": "MONSTER",
+    "id": "mon_okka",
+    "name": "okka",
+    "description": "A small bulbous creature with red, frog-like skin. It runs around on its two tiny clawed feets, hiding from people's sight.",
+    "species": [ "YOUKAI", "CHAOS_SIDE" ],
+    "default_faction": "okka",
+    "diff": 10,
+    "size": "TINY",
+    "hp": 10,
+    "speed": 120,
+    "material": [ "flesh" ],
+    "looks_like": "mon_frog_giant",
+    "symbol": "o",
+    "color": "red",
+    "aggression": 2,
+    "morale": 10,
+    "melee_skill": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 3,
+    "dodge": 8,
+    "vision_day": 4,
+    "harvest": "exempt",
+    "death_drops": "mon_okka_death_drops",
+    "fear_triggers": [ "FIRE" ],
+    "death_function": [ "DISAPPEAR" ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "NO_BREATHE", "HARDTOSHOOT" ]
+  },  {
+    "type": "MONSTER",
+    "id": "mon_kanazuchibo",
+    "name": "kanazuchibo",
+    "description": "A  tiny humanoid with grey, wrinkly skin and long, uncombed silver hair. It carries around absurdly large wooden hammer, given its size.",
+    "species": [ "YOUKAI", "CHAOS_SIDE" ],
+    "default_faction": "youkai",
+    "diff": 12,
+    "size": "TINY",
+    "hp": 100,
+    "speed": 120,
+    "material": [ "flesh" ],
+    "symbol": "K",
+    "color": "black",
+    "aggression": 90,
+    "morale": 40,
+    "melee_skill": 2,
+    "melee_dice": 2,
+    "melee_dice_sides": 3,
+    "dodge": 2,
+    "vision_day": 50,
+    "fear_triggers": [ "FIRE" ],
+    "anger_triggers": [ "PLAYER_CLOSE", "FRIEND_ATTACKED", "FRIEND_DIED" ],
+    "harvest": "exempt",
+    "death_drops": "mon_kanazuchibo_death_drops",
+    "death_function": [ "DISAPPEAR" ],
+    "special_attacks": [ [ "PARROT", 0 ], { "type": "leap", "cooldown": 6, "max_range": 10 } ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "NO_BREATHE", "HARDTOSHOOT", "CLIMBS", "PUSH_MON" ]
   }
 ]
+
+

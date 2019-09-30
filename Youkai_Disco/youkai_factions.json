@@ -42,5 +42,10 @@
     "type": "MONSTER_FACTION",
     "name": "oni",
     "base_faction": "youkai"
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "okka",
+    "base_faction": "youkai"
   }
 ]

@@ -35,5 +35,22 @@
     "addiction_potential": 3,
     "description": "A pair of feline tails, grown together in a otherworldly but charming manner.  Eating them could potentially mutate you into a more purr-fect form.",
     "use_action": { "type": "mutagen_iv", "mutation_category": "FELINE" }
+  },
+  {
+    "type": "TOOL",
+    "id": "wooden_kine",
+    "name": "wooden kine",
+    "description": "A large wooden mallet with elongated head, traditionally used to pound rice or millet. It can also smash heads in a pinch.",
+    "weight": "4500 g",
+    "color": "brown",
+    "symbol": "/",
+    "material": "wood",
+    "flags": "NONCONDUCTIVE",
+    "techniques": [ "WBLOCK_1", "BRUTAL", "WIDE", "SWEEP" ],
+    "volume": "2500 ml",
+    "bashing": 13,
+	"to_hit": -1,
+    "price": 12000,
+    "qualities": [ [ "HAMMER", 1 ] ]
   }
 ]
