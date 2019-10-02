@@ -1,7 +1,7 @@
 [
   {
     "type": "mod_tileset",
-    "compatibility": [ "RetroDays" ],
+    "compatibility": [ "retrodays" ],
     "tiles-new": [
       {
         "file": "tiles10.png",
