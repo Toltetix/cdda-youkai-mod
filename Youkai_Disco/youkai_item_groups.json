@@ -166,10 +166,10 @@
       [ "sake_filtered", 50 ],
       [ "sake_unfiltered", 60 ],
       [ "brandy", 5 ],
-      [ "mannwurst", 20 ],
-      [ "sandwich_human", 30 ],
-      [ "human_haggis", 5 ],
-      [ "human_smoked", 40 ],
+      [ "sausage", 20 ],
+      [ "sandwich_t", 30 ],
+      [ "haggis", 5 ],
+      [ "meat_smoked", 40 ],
       [ "koji", 3 ]
     ]
   },
