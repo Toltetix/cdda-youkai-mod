@@ -20,7 +20,7 @@
     "type": "COMESTIBLE",
     "id": "nekomata_tails",
     "symbol": "<",
-    "color": "dark_grey",
+    "color": "dark_gray",
     "name": "pair of nekomata tails",
     "name_plural": "pairs of nekomata tails",
     "material": "flesh",
