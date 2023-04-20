@@ -1,5 +1,14 @@
 [
 	{
+		"type": "effect_type",
+		"id": "nekomata_tail_effect",
+		"max_duration": "10s",
+		"name": [ "Nekomata Tails" ],
+		"desc": [
+			"Just used for mutations. You shouldn't see this."
+		]
+	},
+	{
 		"type": "effect_on_condition",
 		"id": "nekomata_eoc",
 		"recurrence": [ "1 s", "1 s" ],
