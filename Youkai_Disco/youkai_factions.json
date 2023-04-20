@@ -6,15 +6,11 @@
   },
   {
     "type": "SPECIES",
-    "id": "ORDER_SIDE",
-    "name": "ORDER_SIDE",
-    "by_mood": "CHAOS_SIDE"
+    "id": "ORDER_SIDE"
   },
   {
     "type": "SPECIES",
-    "id": "CHAOS_SIDE",
-    "name": "CHAOS_SIDE",
-    "by_mood": "ORDER_SIDE"
+    "id": "CHAOS_SIDE"
   },
   {
     "type": "MONSTER_FACTION",
@@ -46,6 +42,11 @@
   {
     "type": "MONSTER_FACTION",
     "name": "okka",
+    "base_faction": "youkai"
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "kamaitachi",
     "base_faction": "youkai"
   }
 ]
