@@ -32,7 +32,12 @@
     "comestible_type": "FOOD",
     "stim": 1,
     "addiction_potential": 3,
-    "description": "A pair of feline tails, grown together in a otherworldly but charming manner.  Eating them could potentially mutate you into a more purr-fect form."
+    "description": "A pair of feline tails, grown together in a otherworldly but charming manner.  Eating them could potentially mutate you into a more purr-fect form.",
+	"use_action": { 
+		"type": "consume_drug",
+		"activation_message": "You ingest the raw tails.",
+		"effects": [ { "id": "nekomata_tail_effect", "duration": 5 } ]
+	}
   },
   {
     "type": "TOOL",
