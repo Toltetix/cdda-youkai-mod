@@ -21,8 +21,7 @@
     "id": "nekomata_tails",
     "symbol": "<",
     "color": "dark_gray",
-    "name": "pair of nekomata tails",
-    "name_plural": "pairs of nekomata tails",
+    "name": { "str": "pair of nekomata tails", "str_pl": "pairs of nekomata tails" },
     "material": "flesh",
     "vitamins": [ [ "calcium", 1 ], [ "iron", 20 ], [ "vitB", 10 ] ],
     "price": 200000,
@@ -33,8 +32,7 @@
     "comestible_type": "FOOD",
     "stim": 1,
     "addiction_potential": 3,
-    "description": "A pair of feline tails, grown together in a otherworldly but charming manner.  Eating them could potentially mutate you into a more purr-fect form.",
-    "use_action": { "type": "mutagen_iv", "mutation_category": "FELINE" }
+    "description": "A pair of feline tails, grown together in a otherworldly but charming manner.  Eating them could potentially mutate you into a more purr-fect form."
   },
   {
     "type": "TOOL",

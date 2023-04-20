@@ -30,8 +30,7 @@
     "id": "mon_tengu_monk_death_drops",
     "entries": [
       {
-        "distribution": [ { "item": "naginata", "prob": 10 }, { "item": "spear_survivor", "prob": 30 } ],
-        "damage": [ 0, 2 ],
+        "distribution": [ { "item": "naginata", "prob": 10, "damage": [ 0, 2 ] }, { "item": "spear_survivor", "prob": 30, "damage": [ 0, 2 ] } ],
         "prob": 60
       },
       {
