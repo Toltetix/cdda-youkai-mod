@@ -1,0 +1,33 @@
+[
+	{
+		"type": "effect_type",
+		"id": "nekomata_tail_effect",
+		"max_duration": "10s",
+		"name": [ "Nekomata Tails" ],
+		"desc": [
+			"Just used for mutations. You shouldn't see this."
+		]
+	},
+	{
+		"type": "effect_on_condition",
+		"id": "nekomata_eoc",
+		"recurrence": [ "1 s", "1 s" ],
+		"condition": { "u_has_effect" : "nekomata_tail_effect" },
+		"effect": [
+		{
+			"u_message": "You feel like finding a warm spot to nap.",
+			"type": "mixed"
+		},
+		{ "run_eocs": [ "nekomata_trigger_bonus" ] },
+		{ "u_lose_effect" : "nekomata_tail_effect" }
+		]
+	},
+	{
+		"type": "effect_on_condition",
+		"id": "nekomata_trigger_bonus",
+		"condition": { "one_in_chance": 2 },
+		"effect": [
+		  { "u_mutate_category" : "FELINE", "use_vitamins": false }
+		]
+	}
+]

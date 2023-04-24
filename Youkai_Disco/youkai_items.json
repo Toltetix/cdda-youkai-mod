@@ -7,7 +7,7 @@
     "name": "broken mysterious robot",
     "category": "other",
     "description": "A gigantic heap of weird metal parts, hoses, pipes and plutonium.  It makes no sense as far as your electrical knowledge is concerned, but it can always be gutted for parts.",
-    "price": 1500,
+    "price": 15000,
     "material": [ "steel", "plastic" ],
     "weight": 1000000,
     "volume": 3000,
@@ -21,20 +21,23 @@
     "id": "nekomata_tails",
     "symbol": "<",
     "color": "dark_gray",
-    "name": "pair of nekomata tails",
-    "name_plural": "pairs of nekomata tails",
+    "name": { "str": "pair of nekomata tails", "str_pl": "pairs of nekomata tails" },
     "material": "flesh",
-    "vitamins": [ [ "calcium", 1 ], [ "iron", 20 ], [ "vitB", 10 ] ],
-    "price": 200000,
-    "healthy": 6,
-    "weight": 300,
-    "volume": 2,
+    "vitamins": [ [ "calcium", 6 ], [ "iron", 12 ] ],
+	"calories": 200,
+    "price": 2000,
+    "healthy": 1,
+    "weight": "300 g",
+    "volume": "500 ml",
     "fun": -15,
     "comestible_type": "FOOD",
     "stim": 1,
     "addiction_potential": 3,
     "description": "A pair of feline tails, grown together in a otherworldly but charming manner.  Eating them could potentially mutate you into a more purr-fect form.",
-    "use_action": { "type": "mutagen_iv", "mutation_category": "FELINE" }
+	"use_action": { 
+		"type": "consume_drug",
+		"effects": [ { "id": "nekomata_tail_effect", "duration": 5 } ]
+	}
   },
   {
     "type": "TOOL",
@@ -50,7 +53,7 @@
     "volume": "2500 ml",
     "bashing": 13,
 	"to_hit": -1,
-    "price": 12000,
+    "price": 1200,
     "qualities": [ [ "HAMMER", 1 ] ]
   }
 ]
